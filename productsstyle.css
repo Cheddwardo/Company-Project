@@ -1,0 +1,278 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	width: 1000px;
+	margin: auto;
+	background-color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+#navbar {
+	background-color: lightgrey;
+	overflow: hidden;
+	position: sticky;
+	top: 0;
+	border-bottom: solid darkgrey 1px;
+}
+
+#wsad {
+	width: 35px;
+}
+
+.navitems {
+	float: right;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	font-size: 17px;
+	color: #000;
+	line-height: 35px;
+}
+
+.leekeys {
+	float: left;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 30px;
+	color: #000;
+	padding-left: 25px;
+}
+
+.navitems:hover {
+	background-color: #000;
+	color: white;
+}
+
+.active {
+	float: right;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	font-size: 17px;
+	color: #000;
+	line-height: 35px;
+	background-color: #a1a1a1;
+}
+
+.active:hover {
+	background-color: #000;
+	color: white;
+}
+
+#banner1 {
+	width: 100%;
+	height: 575px;
+	background: url(customization.gif);
+	background-size: 100%;
+}
+
+#banner2 {
+	background:url("blackbackground.png");
+	width: 100%;
+	height: 150px;
+	color: white;
+}
+
+#banner2sub {
+	text-align: right;
+	padding-right: 35px;
+}
+
+#banner2text {
+	width: 400px;
+	padding-left: 25px;
+}
+
+#banner3 {
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
+
+.keyimgs {
+	padding-left: 33.33px;
+	
+}
+
+.keyimgleft {
+	padding-left: 65px;
+}
+
+#banner4 {
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#banner5 {
+	width: 100%;
+	line-height: 0px;
+	background-color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#banner6 {
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.keysub {
+	text-align: center;
+	margin: 0px;
+}
+
+.keytext {
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.keybutton {
+ 	width: 50%;
+	border: solid;
+ 	background-color: transparent;
+ 	color: black;
+ 	padding: 14px 28px;
+ 	font-size: 16px;
+ 	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+.keybutton:hover {
+	background-color: black;
+	color: white;
+}
+
+.soldouttext {
+	text-decoration: none;
+}
+
+#banner7 {
+	width: 100%;
+	background-color: white;
+	height: 25px;
+}
+
+#buffer {
+	width: 100%;
+	background-color: white;
+	height: 75px;
+}
+
+#banner8 {
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
+
+#banner9 {
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#banner10 {
+	width: 100%;
+	line-height: 0px;
+	background-color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#banner11 {
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#banner12 {
+	width: 100%;
+	background-color: white;
+	height: 75px;
+}
+
+#buffer2 {
+	width: 100%;
+	background-color: white;
+	height: 25px;
+}
+
+#smbanner {
+	width: 100%;
+	height:100px;
+	background-color: gray;
+}
+
+#socialmedia {
+	margin: auto;
+	padding-top: 15px;
+	width: 50%;
+}
+
+.socialmediaicon {
+	width: 50px;
+	padding-left: 22px;
+	padding-top: 5px;
+}
+
+#footer {
+	width: 100%;
+	height: 100px;
+	background-color: lightgrey;
+	border-top: solid;
+	border-width: 0.5px;
+	border-color: #858585;
+}
+
+#footertext {
+	margin-top: auto;
+	width: 100%;
+	text-align: center;
+	padding-top: 35px;
+}
+
+#email {
+	float: right;
+}
+
+#register {
+	font-size: 12px;
+	background-color: white;
+	color: black;
+	padding: 7px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#register:hover {
+	background-color: black;
+	color: white;
+}
+
+#registerbutton {
+	text-decoration: none;
+}
+
+input {
+	padding: 6px;
+}
+
+#cctext {
+	height: 30px;
+	background-color: lightgrey;
+	margin: auto;
+	text-align: center;
+	padding-bottom: px;
+	font-size: 10px;
+}
